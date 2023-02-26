@@ -1,0 +1,36 @@
+body {
+    background: #E2AC7F;
+    width: 1200px;
+    height: 550px;
+}
+#wrap{
+    background: #F5F5DC;
+    width: 650px;
+    height: auto;
+    margin: 10px 450px;
+}
+#wrap h1{
+    border-style: dashed;
+    padding: 20px 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+#wrap .line{
+    border-style: dashed;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 10px;
+}
+#wrap ul{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+#wrap ul li{
+    text-align: center;
+}
+.first ::first-letter{
+    font-weight: 800;
+    font-size: larger;
+}
